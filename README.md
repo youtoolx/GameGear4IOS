@@ -16,7 +16,7 @@ IOS端免越狱手游变速器，支持主流游戏引擎开发的游戏，包�
 
 ### 2. 同意隐私协议
 
-在用户同意隐私协议后，调用如下api同意隐私协议。注意：此api非常重要，若您没有隐私协议需求，也需要在合适的时机调用此api同意隐私协议，例如在Application的onCreate中，否则将导致SDK无法正常使用。
+在用户同意隐私协议后，调用如下api同意隐私协议。注意：此api非常重要，若您没有隐私协议需求，也需要在合适的时机调用此api同意隐私协议，例如在AppDelegate的didFinishLaunchingWithOptions中，否则将导致SDK无法正常使用。
 
 ```object-c
 [GearSDK setAgreePrivacy:YES];
