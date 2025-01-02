@@ -1,0 +1,6 @@
+framework module GearSdk {
+  umbrella header "GearSDK.h"
+  export *
+
+  module * { export * }
+}
